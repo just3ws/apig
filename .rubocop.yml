@@ -1,0 +1,30 @@
+---
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  DefaultFormatter: fuubar
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  MaxFilesInCache: 2048
+  TargetRubyVersion: 2.6
+  UseCache: true
+  Exclude:
+    - 'db/schema.rb'
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
