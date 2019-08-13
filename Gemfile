@@ -22,3 +22,5 @@ end
 
 gem 'hiredis'
 gem 'redis', '~> 4.0'
+
+gem 'circuitbox'
